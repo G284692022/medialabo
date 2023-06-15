@@ -1,6 +1,9 @@
 body{
     background: linear-gradient(rgb(109, 232, 224), rgb(116, 199, 255));
 }
+p{
+    background: linear-gradient(0.25turn, white, rgb(116, 199, 255));
+}
 h1{
     color: navy;
     border: solid 0.6em black;
