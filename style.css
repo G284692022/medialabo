@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(rgb(109, 232, 224), rgb(157, 226, 221));
+    background: linear-gradient(rgb(109, 232, 224), rgb(116, 199, 255));
 }
 h1{
     color: navy;
@@ -20,3 +20,15 @@ h4{
     border-bottom-color: rgb(0, 255, 166);
     background-color: #ffffff;
 }
+
+a:link {
+    color: rgb(34, 49, 150);
+  }
+  
+  a:visited {
+    color: rgb(34, 228, 144);
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
