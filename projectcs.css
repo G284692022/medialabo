@@ -1,7 +1,8 @@
-special{
+.special{
     border: solid 0.6em black;
     border-bottom-color: rgb(0, 160, 78);
     background-color: #ffffff;
+    font-size: medium;
 }
 body{
     background: linear-gradient(rgb(255, 255, 255), rgb(116, 255, 236));
