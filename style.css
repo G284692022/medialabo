@@ -2,7 +2,7 @@ body{
     background: linear-gradient(rgb(109, 232, 224), rgb(116, 199, 255));
 }
 p{
-    background: linear-gradient(0.25turn, white, rgb(116, 199, 255));
+    background: linear-gradient(0.25turn,white,rgba(255, 255, 255, 0.605));
 }
 h1{
     color: navy;
