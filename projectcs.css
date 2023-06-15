@@ -7,7 +7,7 @@
 body{
     background: linear-gradient(rgb(255, 255, 255), rgb(116, 255, 236));
 }
-li{
+{
     text-align: center;
     font-weight: bold;
     border:10px solid #363148;
