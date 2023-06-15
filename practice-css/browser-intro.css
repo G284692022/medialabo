@@ -12,8 +12,11 @@ h1 {
 }
 
 h2 {
+	font-family: cursive;
+	color: #3f3faf;
 	border: solid 1px black;
 	margin: 5px;
+	background-color:linear-gradient(white,#ffefaf) ;
 }
 
 div#zentai {
@@ -28,4 +31,11 @@ div#zentai {
 div#zentai > div {
 	padding:5px;
 	background-color: #ffefaf;
+}
+img src {
+	float: right;
+}
+title{
+	color: white;
+	text-shadow: navy;
 }
