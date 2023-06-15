@@ -7,3 +7,6 @@
 body{
     background: linear-gradient(rgb(255, 255, 255), rgb(116, 255, 236));
 }
+.wak{
+    border: solid;
+}
