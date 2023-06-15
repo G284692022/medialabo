@@ -1,16 +1,22 @@
+body{
+    background: linear-gradient(rgb(121, 228, 221), #ffffff);
+}
 h1{
     color: navy;
     border: solid 0.6em black;
     border-bottom-color: blue;
+    background-color: #ffffff;
 
 }
 
 h3{
     border: solid 0.3em black;
     border-bottom-color: rgb(0, 195, 255);
+    background-color: #ffffff;
 }
 
 h4{
     border: solid 0.3em black;
     border-bottom-color: rgb(0, 255, 166);
+    background-color: #ffffff;
 }
