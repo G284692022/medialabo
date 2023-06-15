@@ -2,6 +2,7 @@ h1{
     color: navy;
     border: solid 0.6em black;
     border-bottom-color: blue;
+    width: auto;
 }
 
 h3{
