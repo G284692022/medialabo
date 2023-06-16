@@ -1,5 +1,7 @@
 body{
     background: linear-gradient(rgb(109, 232, 224), rgb(116, 199, 255));
+    display: flex;
+    flex-direction: column;
 }
 p{
     font-family: "Gill Sans", sans-serif;
