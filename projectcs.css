@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     border: solid;
     margin: 40px;
+    padding-bottom:1px;
 }
 .ak{
     background: white;
