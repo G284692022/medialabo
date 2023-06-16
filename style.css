@@ -44,6 +44,5 @@ a:link {
   .tt{
     display: flex;
     flex-direction: column;
-    margin: 40px;
-    padding-bottom:1px;
+
 }
