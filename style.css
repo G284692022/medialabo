@@ -1,11 +1,10 @@
 body{
     background: linear-gradient(rgb(109, 232, 224), rgb(116, 199, 255));
-    flex-direction: column;
 }
 p{
     font-family: "Gill Sans", sans-serif;
     font-size: small;
-    background: linear-gradient(0.25turn,white,rgba(255, 255, 255, 0));
+    background: linear-gradient(0.25turn,white,rgba(255, 255, 255, 0),15px);
 }
 h1{
     color: navy;
@@ -21,6 +20,7 @@ h3{
     border: solid 0.3em black;
     border-bottom-color: rgb(0, 195, 255);
     background-color: #ffffff;
+
 }
 
 h4{
@@ -41,3 +41,10 @@ a:link {
   a:hover {
     text-decoration: none;
   }
+  .tt{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    margin: 40px;
+    padding-bottom:1px;
+}
