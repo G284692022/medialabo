@@ -8,6 +8,7 @@ p{
 }
 h1{
     color: navy;
+    display: inline-block;
     border: solid 0.6em black;
     border-bottom-color: blue;
     background-color: #ffffff;
@@ -15,12 +16,14 @@ h1{
 }
 
 h3{
+    display: inline-block;
     border: solid 0.3em black;
     border-bottom-color: rgb(0, 195, 255);
     background-color: #ffffff;
 }
 
 h4{
+    display: inline-block;
     border: solid 0.3em black;
     border-bottom-color: rgb(0, 255, 166);
     background-color: #ffffff;
