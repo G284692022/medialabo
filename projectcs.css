@@ -15,3 +15,7 @@ div#wak{
 	flex-direction: row;
 	width: 1024px;
 }
+div#wak > div {
+	padding:5px;
+	background-color: #ffefaf;
+}
