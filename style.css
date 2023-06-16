@@ -42,7 +42,7 @@ a:link {
     text-decoration: none;
   }
   .tt{
-    display: flex;
+
     flex-direction: column;
 
 }
