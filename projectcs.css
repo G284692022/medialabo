@@ -7,7 +7,11 @@
 body{
     background: linear-gradient(rgb(255, 255, 255), rgb(116, 255, 236));
 }
-.wak{
-    border: solid;
-    padding: 20px 40px;
+div#wak{
+	display: grid;
+	grid-template-columns:1fr 1fr ;
+	grid-auto-rows: 200px 200px;
+	grid-gap:10px;
+	flex-direction: row;
+	width: 1024px;
 }
