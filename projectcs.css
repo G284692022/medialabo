@@ -10,6 +10,7 @@ body{
 .wak{
     display: flex;
     flex-direction: column;
+    border: solid;
 }
 .ak{
     background: white;
