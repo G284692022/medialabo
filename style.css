@@ -4,7 +4,7 @@ body{
 p{
     font-family: "Gill Sans", sans-serif;
     font-size: small;
-    background: linear-gradient(0.25turn,white 0px,rgba(255, 255, 255, 0),15px);
+    background: linear-gradient(0.25turn,white ,rgba(255, 255, 255, 0) 60%);
 }
 h1{
     color: navy;
