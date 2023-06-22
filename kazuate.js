@@ -21,8 +21,7 @@ function hantei() {
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
-  if(kotae===yoso){
-    console.log("正解です．おめでとう!");
-  }
+  let n=1;
+  console.log(n+"回目の予想: "+yoso);
   
 }
