@@ -19,13 +19,14 @@ let h1=document.querySelector('h2#ex42');
 let p=document.createElement('p'); ;
 p.textContent='写真表と都市の緯度経度のページです'; 
 h1.insertAdjacentElement('afterend', p);
-p.style.textEmphasis='sesamigreen'; 
+
 
 // 練習4-3 写真表作成プログラム
 
 
 // 練習4-4 箇条書き削除プログラム
 
-
+let r=document.querySelector('li#location');
+r.remove();
 // 練習4-5 箇条書き追加プログラム
 
