@@ -24,13 +24,41 @@ h1.insertAdjacentElement('afterend', p);
 
 //text-emphasis
 // 練習4-3 写真表作成プログラム
-
+let div = document.querySelector('div#phototable');
+for(let i = 2;i >= 0 ;i--){ 
+let img = document.createElement('img');
+if(i == 0){
+ img.setAttribute('src', 'taro.png');
+}else if(i == 1){
+ img.setAttribute('src', 'jiro.png');
+}else if(i == 2){
+ img.setAttribute('src', 'hanako.png');
+}
+let p1 = document.createElement('p'); 
+p1.insertAdjacentElement('beforeend', img);
+div.insertAdjacentElement('beforeend',p1); 
+}
 //p要素の中にimg 
 //id検索　p要素作成　追加　beforeend,p
 
 // 練習4-4 箇条書き削除プログラム
 
-let l=document.querySelector('ul#location');
-l.remove();
+let u=[0,1,3];
+
+for (let n of u) {
+	let l=document.querySelector('ul#location > li');
+	l.remove();
+}
+
+
 // 練習4-5 箇条書き追加プログラム
+let r=document.querySelector('ul#location'); 
+// var lo=document.createElement('li'); 
+// lo.textContent=(data[0].name+"…"+data[0].lat+"…"+data[0].lng);
+// r.insertAdjacentElement('beforeend',lo); 
+for(let i of data){
+	var lo=document.createElement('li'); 
+	lo.textContent=(i.name+"…緯度："+i.lat+"　経度："+i.lng);
+	r.insertAdjacentElement('beforeend',lo); 
+   }
 
