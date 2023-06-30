@@ -80,9 +80,15 @@ let data = {
 };
 
 /////////////////// 課題3-2 はここから書き始めよう
-console.log("検索結果1件目");
-console.log(data.list.g1[0].start_time );
-console.log(data.list.g1[0].end_time );
+
+let li1=document.createElement('li');
+li1=(data.list.g1[0].start_time );
+document.getElementById('result').textContent = li1;
+let li2=document.createElement('li');
+li2=(data.list.g1[0].end_time );
+let x=document
+// console.log(data.list.g1[0].start_time );
+// console.log(data.list.g1[0].end_time );
 console.log(data.list.g1[0].service.name );
 console.log(data.list.g1[0].title );
 console.log("検索結果2件目");
