@@ -80,19 +80,46 @@ let data = {
 };
 
 /////////////////// 課題3-2 はここから書き始めよう
+let s=document.querySelector('div#result'); 
+// let a=document.createElement('li'); 
+// a.textContent=data.list.g1[0].start_time; 
+// s.insertAdjacentElement('beforeend',a); 
+// let b=document.createElement('li'); 
+// b.textContent=data.list.g1[0].end_time ; 
+// s.insertAdjacentElement('beforeend',b); 
 
-let li1=document.createElement('li');
-li1=(data.list.g1[0].start_time );
-document.getElementById('result').textContent = li1;
-let li2=document.createElement('li');
-li2=(data.list.g1[0].end_time );
-let x=document
+  let a=document.createElement('li'); 
+  let b=document.createElement('li'); 
+  let c=document.createElement('li');
+  let d=document.createElement('li');
+  a.textContent=data.list.g1[0].start_time; 
+  b.textContent=data.list.g1[0].end_time ;
+  c.textContent=data.list.g1[0].service.name;
+  d.textContent=data.list.g1[0].title;
+  s.insertAdjacentElement('beforeend',a);
+  s.insertAdjacentElement('beforeend',b);
+  s.insertAdjacentElement('beforeend',c);
+  s.insertAdjacentElement('beforeend',d);
+  
+  let e=document.createElement('li'); 
+  let f=document.createElement('li'); 
+  let g=document.createElement('li');
+  let h=document.createElement('li');
+  e.textContent=data.list.g1[1].start_time ; 
+  f.textContent=data.list.g1[1].end_time;
+  g.textContent=data.list.g1[1].service.name ;
+  h.textContent=data.list.g1[1].title;
+  s.insertAdjacentElement('beforeend',e);
+  s.insertAdjacentElement('beforeend',f);
+  s.insertAdjacentElement('beforeend',g);
+  s.insertAdjacentElement('beforeend',h);
+  
 // console.log(data.list.g1[0].start_time );
 // console.log(data.list.g1[0].end_time );
-console.log(data.list.g1[0].service.name );
-console.log(data.list.g1[0].title );
-console.log("検索結果2件目");
-console.log(data.list.g1[1].start_time );
-console.log(data.list.g1[1].end_time );
-console.log(data.list.g1[1].service.name );
-console.log(data.list.g1[1].title );
+// console.log(data.list.g1[0].service.name );
+// console.log(data.list.g1[0].title );
+// console.log("検索結果2件目");
+// console.log(data.list.g1[1].start_time );
+// console.log(data.list.g1[1].end_time );
+// console.log(data.list.g1[1].service.name );
+// console.log(data.list.g1[1].title );
