@@ -80,6 +80,7 @@ let data = {
 };
 
 /////////////////// 課題3-2 はここから書き始めよう
+
 let s=document.querySelector('div#result'); 
 // let a=document.createElement('li'); 
 // a.textContent=data.list.g1[0].start_time; 
@@ -123,3 +124,10 @@ let s=document.querySelector('div#result');
 // console.log(data.list.g1[1].end_time );
 // console.log(data.list.g1[1].service.name );
 // console.log(data.list.g1[1].title );
+let k = document.querySelector('#kensaku'); 
+k.addEventListener('click', con);
+function con(){
+  let nyu=document.querySelector('input[name="ken"]');
+  let se=nyu.value;
+  console.log(se);
+}
