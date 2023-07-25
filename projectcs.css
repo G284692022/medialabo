@@ -14,7 +14,7 @@ body{
     margin: 40px;
     padding-bottom:1px;
 }
-.ak{
+#result{
     background: white;
     padding:1em;
     border-bottom: thick double #00ac81;

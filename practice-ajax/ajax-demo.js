@@ -1,5 +1,5 @@
 let b = document.querySelector('#sendRequest');
-b.addEventListener('click', sendRequest);
+b.addataventListener('click', sendRequest);
 
 
 // 通信を開始する処理
